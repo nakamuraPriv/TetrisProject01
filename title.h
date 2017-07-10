@@ -8,6 +8,7 @@ class ApplicationMain;
 class Title : public Scene, public std::enable_shared_from_this<Title> {
 private:
 	std::string title_text;
+	std::string cursol;
 public:
 	Title();
 	std::shared_ptr<Scene> run(std::shared_ptr<ApplicationMain> application_main);

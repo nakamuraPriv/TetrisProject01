@@ -30,6 +30,12 @@
     <ClCompile Include="inputs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="const_values.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="seelct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="application_main.h">
@@ -45,6 +51,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="inputs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="const_values.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="select.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

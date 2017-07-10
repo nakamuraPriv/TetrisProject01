@@ -20,16 +20,20 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="application_main.cpp" />
+    <ClCompile Include="const_values.cpp" />
     <ClCompile Include="inputs.cpp" />
     <ClCompile Include="keyboard.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="seelct.cpp" />
     <ClCompile Include="title.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="application_main.h" />
+    <ClInclude Include="const_values.h" />
     <ClInclude Include="inputs.h" />
     <ClInclude Include="keyboard.h" />
     <ClInclude Include="scene.h" />
+    <ClInclude Include="select.h" />
     <ClInclude Include="title.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

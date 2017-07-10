@@ -2,6 +2,7 @@
 #include "application_main.h"
 #include "DxLib.h"
 #include "inputs.h"
+#include "const_values.h"
 
 using namespace std;
 
@@ -20,5 +21,6 @@ shared_ptr<Scene> Title::run(shared_ptr<ApplicationMain> application_main) {
 Title::Title() {
 	/*TODO:設定ファイルやコンフィグファイルから設定を読み込み
 	メンバ変数に値をセットする*/
-	this->title_text = "テトリス!!";
+	this->title_text = ConstValues::get_instance().get_title();
+	this->cursol = "■";
 }
