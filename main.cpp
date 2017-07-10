@@ -9,6 +9,7 @@ using namespace std;
 int WINAPI WinMain(HINSTANCE hInstancs, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int num) {
 	if (ChangeWindowMode(TRUE) != 0 ||
 		SetWindowText("TETRIS!!") != 0 ||
+		SetWindowSize(600,480) != 0 ||
 		DxLib_Init() != 0 ||
 		SetDrawScreen(DX_SCREEN_BACK) != 0) {
 		return -1;
