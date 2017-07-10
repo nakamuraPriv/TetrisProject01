@@ -50,8 +50,8 @@ Title::Title() {
 	this->cursol = "¡";
 	this->menu = make_shared<Select>();
 	this->menu->set_cycle_flag(true);
-	this->menu->set_coord(240, 360);
-	this->menu->set_font_size(16);
+	this->menu->set_coord(200, 300);
+	this->menu->set_font_size(24);
 	this->menu->add_option(
 		"‚Ð‚Æ‚è‚Å—V‚Ô",
 		[this](
