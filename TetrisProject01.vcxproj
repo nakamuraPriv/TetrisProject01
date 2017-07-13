@@ -25,6 +25,7 @@
     <ClCompile Include="keyboard.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="seelct.cpp" />
+    <ClCompile Include="tetris_one_play.cpp" />
     <ClCompile Include="title.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -34,6 +35,7 @@
     <ClInclude Include="keyboard.h" />
     <ClInclude Include="scene.h" />
     <ClInclude Include="select.h" />
+    <ClInclude Include="tetris_one_play.h" />
     <ClInclude Include="title.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

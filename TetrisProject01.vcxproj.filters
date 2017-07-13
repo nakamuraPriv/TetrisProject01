@@ -36,6 +36,9 @@
     <ClCompile Include="seelct.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="tetris_one_play.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="application_main.h">
@@ -57,6 +60,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="select.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tetris_one_play.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

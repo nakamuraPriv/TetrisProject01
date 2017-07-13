@@ -4,6 +4,7 @@
 #include "inputs.h"
 #include "const_values.h"
 #include "select.h"
+#include "tetris_one_play.h"
 
 using namespace std;
 
@@ -58,7 +59,7 @@ Title::Title() {
 			shared_ptr<ApplicationMain> application_main,
 			shared_ptr<Scene> scene)->shared_ptr<Scene> {
 		//TODO:ひとりプレイ用ゲーム画面へ飛ぶ処理をする。
-		return shared_from_this();
+		return make_shared<TetrisOnePlay>();
 	});
 	this->menu->add_option(
 		"通信対戦で遊ぶ",

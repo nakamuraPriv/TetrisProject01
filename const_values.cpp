@@ -4,6 +4,7 @@ using namespace std;
 
 ConstValues::ConstValues() {
 	title = "ƒeƒgƒŠƒX";
+	cell_size = 20;
 }
 
 ConstValues& ConstValues::get_instance() {
@@ -14,4 +15,8 @@ ConstValues& ConstValues::get_instance() {
 
 string ConstValues::get_title() {
 	return this->title;
+}
+
+int ConstValues::get_cell_size() {
+	return this->cell_size;
 }
